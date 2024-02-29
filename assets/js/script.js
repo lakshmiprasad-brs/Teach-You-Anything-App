@@ -7,10 +7,10 @@ const difficulty = document.querySelector('#difficulty');
 const res_blk = document.querySelector('#res_blk');
 const err_blk = document.querySelector('#err_blk');
 const loader = document.querySelector('#loader');
-const openAiUrl = 'https://api.openai.com/v1/completions';
+const openAiUrl = 'https://api.openai.com/v1/chat/completions';
 const headers = {
   "Content-Type": "application/json",
-  "Authorization": `Bearer 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`
+  "Authorization": `Bearer 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`
 }
 
 search.addEventListener('click', function() {
